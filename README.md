@@ -33,3 +33,11 @@ DevOps 演示项目
   git add README.md
   git commit -m "第一次提交" README.md
   git push
+
+
+5.提交时如果不成功，出现提示，就需要设置你的邮箱和用户名
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+  
+把邮箱替换为你的,用户名替换为你的用户名.
